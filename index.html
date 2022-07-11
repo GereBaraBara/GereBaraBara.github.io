@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="icon" href="image/icono.ico">
+    <title>PROJECTX</title>
+</head>
+<body>
+        <div class="fondo" id="volva">
 
+            <!--header-->
+            <header>
+
+                <!--logo-->
+                <a href="index.html" class="izq">    
+                    <img src="image/icono.ico" alt="Logo">
+                    <h2>PROJECTX</h2>
+                </a> 
+                
+                <!--navegacion-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="source/podcast.html">NUESTROS PODCASTS</a></li>
+                        <li><a href="source/radio.html">NESTRA RADIO</a></li>
+                        <li><a href="source/revista.html">NUESTRA REVISTA</a></li>
+                        <li><a href="source/prensaescrita.html">NUESTRA PRENSA</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <!--contenedor1-->
+            <div class="contenedor1">
+
+                <!--texto resumen-->           
+                <div class="contenedor__lomasreciente">
+                    <h2>LO MAS NUEVO</h2>
+                    <p>Mira nuestras novedades antes que nadie</p>
+                </div>
+
+                <!--carrusel-->
+                <div class="carrusel">
+                    <div class="carrusel__contenedor">
+
+                        <button aria-label="Anterior" class="carrusel__anterior">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+
+                        <div class="carrusel__lista">
+                            <a href="source/radio.html" class="carrusel__elemento">
+                                <img src="image/1.jpg">
+                                <p>RADIO</p>
+                            </a>
+
+                            <a href="source/podcast.html" class="carrusel__elemento">
+                                <img src="image/2.jpg">
+                                <p>PODCAST</p>
+                            </a>
+
+                            <a href="source/revista.html" class="carrusel__elemento">
+                                <img src="image/3.png">
+                                <p>REVISTA</p>
+                            </a>
+
+                            <a href="source/prensaescrita.html" class="carrusel__elemento">
+                                <img src="image/4.jfif">
+                                <p>CONFERENCIAS</p>
+                            </a>
+
+                            <a href="source/nosotros.html" class="carrusel__elemento">
+                                <img src="image/5.jpg">
+                                <p>NOSOTROS</p>
+                            </a>
+
+                        </div>
+
+                        <button aria-label="Siguiente" class="carrusel__siguiente">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div role="tablist" class="carrusel__indicador">
+                    </div>
+                </div>
+
+            </div>
+
+            <!--contenedor2-->
+            <div class="contenedor2"> 
+
+                <!--exitos-->         
+                <div class="exitos">
+                    <h2>NUESTROS EXITOS: <br></h2>
+                    <div class="contenedor__exitos">
+                        <p>Nos enorgullecemos de nuestro gran catálogo de variedades sobre nuestro medio de 
+                        comunicación <b>PROYECTX</b>. Por eso creemos importante presentar nuestros principales títulos, para 
+                        así poder ofrecerles nuestra gran calidad y variedades.</p>
+
+                        <div>
+                            
+                        </div>
+    
+                    </div>
+                </div>
+
+
+                <!--fechas-->
+                <div class="fechas">
+                    <h2>PROXIMAS ENTREGAS:</h2>
+                    <div class="contenedor__entregas">
+                        <p>Enterate de nuestras proximas fechas de entrega, nuestras actualizacions y mas</p>
+                    </div>
+                </div>
+
+                <div class="contenedor__entregas">
+
+                </div>
+
+                <!--redes sociales-->
+                <div class="redessociales">
+                    <h2>SEGUINOS:</h2>
+                </div>
+
+                <div class="contenedor__redessociales">
+
+                </div>
+            
+            </div>
+
+            <!--footer-->
+            <footer>
+                <ul>
+                    <li><a href="source/contacto.html">Contactanos</a></li>
+                    <li><a href="source/nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="source/mision.html">Nuestra Mision</a></li>
+                    <li><a id="btnVolvA" href="#volva">Volver Arriba</a></li>
+                </ul>
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+            <script src="https://kit.fontawesome.com/e7b1f56f17.js" crossorigin="anonymous"></script>
+            <script src="js/app.js"></script>
+    </body>
+</html>
